@@ -10,9 +10,18 @@ docker-compose up -d
 
 ## connect
 
- http://localhost:5050/
- u: admin@admin.com
- p: root
+http://localhost:5050/
+
+u: admin@admin.com
+
+p: root
+
+you may be prompted for a password to connect to the database, password is root
+
+you can view an ERD that was created previously by clicking Tools > ERD Tool > then click the folder button
+to open any ERD file that's there
+
+
 
 ## configure
 
