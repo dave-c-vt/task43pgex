@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.6'
 
 services:
 
@@ -28,4 +28,8 @@ services:
 volumes:
   data:
   files:
-    - ./
+      driver: local
+      driver_opts:
+          type: none
+          o: bind
+          device: ./
